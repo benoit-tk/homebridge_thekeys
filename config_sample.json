@@ -1,0 +1,29 @@
+{
+    "bridge": {
+        "name": "The Keys Example",
+        "username": "CC:22:3D:E3:CE:32",
+        "port": 51826,
+        "pin": "123-45-678"
+    },
+    
+    "description": "This is a demo for The Keys lockers",
+
+    "accessories": [
+        {
+            "accessory":      "TheKeys",
+            "name":           "TK Maison",
+            "locker_name":    "TK Maison",
+            "identifier":     "1111",
+            "code":	          "xxxx"
+        },
+        {
+            "accessory":      "TheKeys",
+            "name":           "TK Garage",
+            "locker_name":    "TK Garage",
+            "identifier":     "2222",
+            "code":	          "yyyyy"
+        }
+    ],
+
+    "platforms": []
+}

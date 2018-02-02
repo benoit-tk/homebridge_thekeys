@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-thekeys",
+  "version": "0.0.1",
+  "description": "The keys plugin for homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "The Keys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:benoit-tk/homebridge_thekeys.git"
+  },
+  "dependencies": {
+    "request": "^2.65.0",
+    "crypto-js": ">3.0"
+  }
+}
