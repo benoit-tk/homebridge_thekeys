@@ -5,7 +5,7 @@
 ```console
 git clone https://github.com/benoit-tk/homebridge_thekeys.git
 cd homebridge_thekeys
-npm install .
+npm install -g .
 ```
 
 
@@ -38,7 +38,8 @@ Edit config.json (~/.homebridge/config.json), and add the configuration:
             "name":           "TK Maison",
             "locker_name":    "TK Maison",
             "identifier":     "1751",
-            "code":           "0Ge3uGsPVYwVxLZM"
+            "code":           "0Ge3uGsPVYwVxLZM",
+            "ip":             "192.168.0.10"
         }
     ]
 ```
