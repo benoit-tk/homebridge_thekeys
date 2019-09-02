@@ -14,14 +14,16 @@
             "name":           "TK Maison",
             "locker_name":    "TK Maison",
             "identifier":     "1111",
-            "code":	          "xxxx"
+            "code":	          "xxxx",
+	    "ip":             "192.168.0.10"
         },
         {
             "accessory":      "TheKeys",
             "name":           "TK Garage",
             "locker_name":    "TK Garage",
             "identifier":     "2222",
-            "code":	          "yyyyy"
+            "code":	          "yyyyy",
+	    "ip":             "192.168.0.10"
         }
     ],
 

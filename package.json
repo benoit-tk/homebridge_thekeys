@@ -18,7 +18,7 @@
     "url": "git@github.com:benoit-tk/homebridge_thekeys.git"
   },
   "dependencies": {
-    "request": "^2.65.0",
-    "crypto-js": ">3.0"
+    "crypto-js": ">3.0",
+    "request": "^2.65.0"
   }
 }
