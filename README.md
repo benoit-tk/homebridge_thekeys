@@ -25,6 +25,9 @@ npm install .
 ![Share](/screenshots/share.png)
 
 ## Configure the plugin
+Find the "ID Serrure" from api.the-keys.fr (here 1751): 
+![Configuration](/screenshots/conf_serrure.png)
+
 Edit config.json (~/.homebridge/config.json), and add the configuration:
 
 ```json
