@@ -1,0 +1,41 @@
+{
+    "plugin_alias": "TheKeys",
+    "schemas": [{
+        "title": "The Keys locker",
+        "type": "object",
+        "properties": {
+            "accessory": {
+                "title": "Accessory",
+                "type": "string",
+                "const": "TheKeys",
+                "readOnly": true
+            },
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "default": "The Keys",
+                "required": true
+            },
+            "locker_name": {
+                "title": "Porte",
+                "type": "string",
+                "required": true
+            },
+            "identifier": {
+                "title": "Locker identifier",
+                "type": "string",
+                "required": true
+            },
+            "code": {
+                "title": "Share code",
+                "type": "string",
+                "required": true
+            },
+            "ip": {
+                "title": "Gateway ip",
+                "type": "string",
+                "required": true
+            }
+        }
+    }]
+}

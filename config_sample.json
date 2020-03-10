@@ -5,7 +5,7 @@
         "port": 51826,
         "pin": "123-45-678"
     },
-    
+
     "description": "This is a demo for The Keys lockers",
 
     "accessories": [
@@ -15,7 +15,7 @@
             "locker_name":    "TK Maison",
             "identifier":     "1111",
             "code":	          "xxxx",
-	    "ip":             "192.168.0.10"
+	          "ip":             "192.168.0.10"
         },
         {
             "accessory":      "TheKeys",
