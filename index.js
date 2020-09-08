@@ -45,6 +45,7 @@ TheKeysAccessory.prototype.check_locker = function(callback) {
                     res = JSON.parse(body);
                   } catch(err) {
                     callback();
+                    return;
                   }
 
                   for(var l in res["devices"]) {
